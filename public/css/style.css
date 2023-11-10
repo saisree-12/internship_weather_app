@@ -1,0 +1,62 @@
+/* body{
+    background: url("../images/wea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;
+} */
+.container{
+    /* border: burlywood; */
+    border-radius: 15px;
+    background-blend-mode: lighten;
+    width: 600px;
+    height: 350px;
+    align-self: center;
+    align-content: center;
+    align-items:center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    padding: 10px;
+     /* box-shadow: 0px 0px 5px 5px whitesmoke; */
+     background-color: rgba(255, 255, 255, 0.5);
+}
+/* .label{
+    margin-top: 0px;
+    padding-top: 20px;
+
+    color: white;
+} */
+.inp{
+    border-radius: 30px;
+    border: 0px;
+    /* border-color: aquamarine; */
+    border-style: solid;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 25px;
+    outline: none;
+}
+.btn{
+    /*background-color: bisque;*/
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 0px;
+    font-size: small;
+    font-weight: bold;
+    background-color: #218838;
+    color: whitesmoke;
+    box-shadow: 10px 10px 50px 10px rgba(255, 255, 255, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.btn:hover{
+    transform: perspective(300px) rotateY(20deg);
+}
+form{
+    padding-bottom: 30px;
+}
